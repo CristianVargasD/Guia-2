@@ -1,0 +1,29 @@
+Algoritmo notasComoquiereElPDF
+	Definir nota1, nota2, nota3 Como Entero
+	Definir aprobado, desaprobado Como Logico
+	aprobado = Verdadero
+	desaprobado = Falso
+	Imprimir "tira 3 notas rey/reina"
+	Leer nota1, nota2, nota3
+	Si nota1 <= 10 Entonces
+		aprobado = Verdadero
+		Imprimir "Nota #1: " nota1 " Es correcto"
+	SiNo
+		desaprobado = Falso
+		Imprimir "Nota #1: " nota1 " No es correcto"
+	FinSi
+	Si nota2 <= 10 Entonces
+		aprobado = Verdadero
+		Imprimir "Nota #2: " nota2 " Es correcto"
+	SiNo
+		desaprobado = Falso
+		Imprimir "Nota #2: " nota2 " No es correcto"
+	FinSi
+	Si nota3 <= 10 Entonces
+		aprobado = Verdadero
+		Imprimir "Nota #3: " nota3 " Es correcto"
+	SiNo
+		desaprobado = Falso
+		Imprimir "Nota #3: " nota3 " No es correcto"
+	FinSi
+FinAlgoritmo
