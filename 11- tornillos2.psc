@@ -6,16 +6,8 @@ Algoritmo tornillos
 	Leer cantTornilloDefect
 	Imprimir "Cuantos tornillos sin defectos rey?"
 	Leer cantTornilloOk
-	Si cantTornilloDefect <= 200 Entonces
-		esGrado6 = cantTornilloDefect <= 200
-	SiNo
-		esGrado6 = Falso
-	FinSi
-	Si cantTornilloOk >= 10000 Entonces
-		esGrado7 = Verdadero
-	SiNo
-		esGrado7 = Falso
-	FinSi
+	esGrado6 = cantTornilloDefect <= 200
+	esGrado7 = cantTornilloOk >= 10000
 	////////////////////////////////////////////////////////////////////
 	Si esGrado6 y No esGrado7 Entonces
 		Imprimir "Grado 6"
